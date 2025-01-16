@@ -32,8 +32,8 @@ Ensure you have the following installed on your system:
 1. Clone the repository:
 
     ```bash
-    git clone <repository-url>
-    cd <project-directory>
+    git clone https://github.com/HuzaifaAnsari2806/TradexaTechTask.git
+    cd TradexaTechTask
     ```
 
 2. Install the required dependencies:
