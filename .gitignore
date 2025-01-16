@@ -1,0 +1,10 @@
+penv/
+static/
+media/
+__pycache__/
+*.sqlite3
+*.db
+*.log
+*.pyc
+*/migrations/*
+!*/migrations/__init__.py
