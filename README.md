@@ -5,7 +5,7 @@
 A Django-based project that demonstrates simultaneous data insertion into multiple SQLite databases (`users.db`, `products.db`, `orders.db`). The task uses threading to execute insertions concurrently and includes validations to ensure data integrity.
 
 ## Project Structure
-
+```
 C:.
 │   .gitignore
 │   db.sqlite3
