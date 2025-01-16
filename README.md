@@ -6,7 +6,46 @@ A Django-based project that demonstrates simultaneous data insertion into multip
 
 ## Project Structure
 
-C:. │ .gitignore │ db.sqlite3 │ manage.py │ orders.db │ products.db │ users.db │ ├───distributed_system │ │ asgi.py │ │ settings.py │ │ urls.py │ │ wsgi.py │ │ init.py │ │ │ └───pycache │ settings.cpython-312.pyc │ urls.cpython-312.pyc │ init.cpython-312.pyc │ └───insertion_task │ admin.py │ apps.py │ db_routers.py │ models.py │ tests.py │ views.py │ init.py │ ├───management │ └───commands │ │ insert_data.py │ └───pycache │ insert_data.cpython-312.pyc │ ├───migrations │ │ 0001_initial.py │ │ init.py │ │ │ └───pycache │ 0001_initial.cpython-312.pyc │ 0002_alter_order_product_id_alter_order_user_id_and_more.cpython-312.pyc │ 0003_alter_user_name.cpython-312.pyc │ 0004_rename_product_id_order_product_and_more.cpython-312.pyc │ init.cpython-312.pyc │ └───pycache admin.cpython-312.pyc apps.cpython-312.pyc db_routers.cpython-312.pyc models.cpython-312.pyc init.cpython-312.pyc
+C:.
+│   .gitignore
+│   db.sqlite3
+│   manage.py
+│   orders.db
+│   products.db
+│   users.db
+│
+├───distributed_system
+│   │   asgi.py
+│   │   settings.py
+│   │   urls.py
+│   │   wsgi.py
+│   │   __init__.py
+│   
+│   
+│           
+│           
+│           
+│
+└───insertion_task
+    │   admin.py
+    │   apps.py
+    │   db_routers.py
+    │   models.py
+    │   tests.py
+    │   views.py
+    │   __init__.py
+    │
+    ├───management
+    │   └───commands
+    │       │   insert_data.py
+    │       
+    │       
+    │             
+    │
+    ├───migrations
+       │   __init__.py
+
+    
 
 
 ## Overview
